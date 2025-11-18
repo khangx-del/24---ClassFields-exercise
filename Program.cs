@@ -83,6 +83,11 @@ namespace _24___ClassFields_exercise
         {
             Person person = new Person("Alex", "Carter", 21, 2004, "Canadian");
             Console.WriteLine(person.ReturnDetails());
+             
+            Console.WriteLine();
+
+            Person person2 = new Person("Tim", "Rivera", 30, 1995, "America");
+            Console.WriteLine(person2.ReturnDetails());
         }
     }
 }
