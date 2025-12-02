@@ -86,8 +86,12 @@ namespace _24___ClassFields_exercise
              
             Console.WriteLine();
 
-            Person person2 = new Person("Tim", "Rivera", 30, 1995, "America");
-            Console.WriteLine(person2.ReturnDetails());
+            person.SetFirstName("Tim");
+            person.SetLastName("Rivera");
+            person.SetAge(30);
+            person.SetBirthYear(1995);
+            person.SetNationality("American");
+            .WriteLine(person.ReturnDetails());
         }
     }
 }
