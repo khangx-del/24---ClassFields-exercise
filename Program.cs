@@ -91,7 +91,7 @@ namespace _24___ClassFields_exercise
             person.SetAge(30);
             person.SetBirthYear(1995);
             person.SetNationality("American");
-            .WriteLine(person.ReturnDetails());
+            Console.WriteLine(person.ReturnDetails());
         }
     }
 }
